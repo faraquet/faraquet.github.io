@@ -16,7 +16,7 @@
 .container
 {
     position: absolute;
-    top: 25%;
+    top: 15%;
 
     display: flex;
 
@@ -51,6 +51,8 @@
 
 .text-centered
 {
+    padding: 50px 0 0 0;
+
     text-align: center;
 }
 
@@ -58,7 +60,8 @@
 .about
 {
     width: 100%;
-    margin: 0 0 0px 0;
+    
+    margin: 0;
 }
 
 .reading-list
@@ -81,9 +84,22 @@
     opacity: 1;
 }
 
+.contact
+{
+    display: flex;
+    
+    flex-flow: column;
+    align-items: center;
+}
+
 .socials
 {
+    display: flex;
+    
+    width: 150px;
     margin: 0 0 50px 0;
+    
+    justify-content: space-between;
 }
 
 .socials__img
