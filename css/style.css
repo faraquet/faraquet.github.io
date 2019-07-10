@@ -79,6 +79,12 @@
     color: #003333;
 }
 
+.text,
+.reading-list__item
+{
+    font-size: 14pt;
+}
+
 .reading-list__item:hover
 {
     opacity: 1;
