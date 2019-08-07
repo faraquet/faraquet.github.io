@@ -23,6 +23,7 @@
     width: 50%;
     min-width: 400px;
     max-width: 650px;
+    min-height: 2000px;
 
     flex-flow: column;
     align-items: center;
