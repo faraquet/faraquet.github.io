@@ -1,0 +1,8 @@
+@font-face
+{
+    font-family: 'Cutive mono';
+    src: url('../fonts/Cutivemonoregular.woff2') format('woff2'),
+         url('../fonts/Cutivemonoregular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

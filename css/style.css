@@ -1,0 +1,81 @@
+.body
+{
+    font-family: 'Cutive Mono', monospace;
+
+    display: flex;
+
+    margin: 0;
+
+    color: #bff1fc;
+    background-color: #363636;
+
+    justify-content: center;
+}
+
+.container
+{
+    position: absolute;
+    top: 25%;
+
+    display: flex;
+
+    width: 50%;
+    min-width: 400px;
+    max-width: 650px;
+
+    flex-flow: column;
+    align-items: center;
+}
+
+.avatar
+{
+    width: 100px;
+    margin: 0 0 50px 0;
+
+    border-radius: 100px;
+}
+
+.title
+{
+    font-size: 25px;
+}
+
+
+.text
+{
+    margin: 0 0 15px 0;
+
+    text-align: justify;
+}
+
+
+.about,
+.reading-list
+{
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+.reading-list__item
+{
+    transition: opacity .2s ease-out;
+    text-decoration: none;
+
+    opacity: .5;
+    color: #bff1fc;
+}
+
+.reading-list__item:hover
+{
+    opacity: 1;
+}
+
+.socials
+{
+    margin: 0 0 50px 0;
+}
+
+.socials__img
+{
+    width: 20px;
+}
